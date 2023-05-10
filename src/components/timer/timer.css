@@ -1,0 +1,89 @@
+* {
+  color: #0087e0;
+}
+
+.counter {
+  font-weight: bold;
+  font-size: 90px;
+  letter-spacing: 0.1em;
+  font-family: 'Inter';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  font-weight: bold;
+  font-size: 32px;
+  /* letter-spacing: 0.35em; */
+  font-family: 'Inter';
+}
+/* 
+.timer_con {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  /* justify-content: baseline; 
+} */
+
+/* .dot {
+  font-weight: bold;
+  font-size: 90px;
+} */
+/* 
+.sections-up {
+  display: flex;
+  flex-direction: column-reverse;
+  /* justify-content: baseline; 
+} */
+/* 
+.sections-down {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: baseline; 
+} */
+
+.containerrr {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100.5px 100px 100px;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    '. h . s'
+    'time time time time'
+    'd . m .';
+}
+
+.time {
+  grid-area: time;
+}
+
+.d {
+  grid-area: d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h {
+  grid-area: h;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m {
+  grid-area: m;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s {
+  grid-area: s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
