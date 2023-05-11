@@ -34,3 +34,19 @@ body {
   font-family: 'Inter';
   padding: 20px;
 }
+
+.JustSayLogo:hover {
+  animation-duration: 2s;
+  animation-name: rotateDeg;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes rotateDeg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}

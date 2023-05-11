@@ -14,6 +14,7 @@ const ComingSoon = () => {
         <img
           src={JustSayLogo}
           alt="JustSayLogo"
+          className="JustSayLogo"
           style={{
             width: '500px',
             height: '520px',
