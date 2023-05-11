@@ -12,6 +12,10 @@ svg:hover {
 img {
   color: black;
 }
+.blue {
+  filter: invert(44%) sepia(48%) saturate(7369%) hue-rotate(185deg)
+    brightness(99%) contrast(101%);
+}
 
 .link {
   color: black;

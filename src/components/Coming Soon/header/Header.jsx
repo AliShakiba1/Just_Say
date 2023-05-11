@@ -16,10 +16,12 @@ const Header = () => {
             <img
               src={userlogo}
               alt="user"
-              className="img2"
+              className="img2 blue"
               style={{
                 width: '50px',
                 height: '50px',
+                color: 'black',
+                colorAdjust: 'black',
               }}
             />
           ) : (
