@@ -5,13 +5,18 @@ body {
 .container {
   display: grid;
   grid-template-areas:
-    '. . . header'
-    'main   main    main    main'
-    'main   main    main    main';
-  gap: 10px;
-  padding: 10px;
+    ' . . .  header'
+    '  main   main    main    main  '
+    '  main   main    main    main  '
+    ' . . .   footer';
+  gap: 2px;
+  padding: 2px;
   justify-content: center;
   align-items: center;
+}
+
+.footer {
+  grid-area: footer;
 }
 
 .header {
@@ -29,10 +34,10 @@ body {
 .COMINGSOON {
   color: #0087e0;
   font-weight: bold;
-  font-size: 65px;
-  letter-spacing: 0.35em;
+  font-size: 60px;
+  letter-spacing: 0.3em;
   font-family: 'Inter';
-  padding: 20px;
+  padding: 0px;
 }
 
 .JustSayLogo:hover {

@@ -16,12 +16,20 @@ const ComingSoon = () => {
           alt="JustSayLogo"
           className="JustSayLogo"
           style={{
-            width: '500px',
-            height: '520px',
+            width: '450px',
+            height: '480px',
           }}
         />
         <div className="COMINGSOON">COMING SOON</div>
         <Timer />
+      </div>
+      <div
+        className="footer"
+        style={{
+          fontFamily: 'Inter',
+        }}
+      >
+        <a href="https://github.com/AliShakiba1">&#169; Ali Shakiba</a>
       </div>
     </div>
   )

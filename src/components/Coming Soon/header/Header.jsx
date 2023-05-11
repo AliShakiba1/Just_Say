@@ -45,12 +45,17 @@ const Header = () => {
     >
       <div>
         <MenuItem>
-          <a className="link" href="t.me/prance0">
+          <a className="link" href="https://t.me/justsayalpha">
             Telegram
           </a>
         </MenuItem>
         <MenuItem>
-          <a className="link" href="https://github.com/AliShakiba1">
+          <a className="link" href="mailto:Info@artovan.ir">
+            Email
+          </a>
+        </MenuItem>
+        <MenuItem>
+          <a className="link" href="http://Github.com/artovan">
             GitHub
           </a>
         </MenuItem>
