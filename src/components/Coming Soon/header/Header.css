@@ -17,6 +17,9 @@ img {
   color: black;
   font-weight: bold;
   font-size: 24px;
-   text-decoration: none;
-  
+  text-decoration: none;
+}
+
+.my-menu {
+  border: 2px solid green;
 }

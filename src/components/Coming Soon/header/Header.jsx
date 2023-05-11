@@ -33,22 +33,25 @@ const Header = () => {
           )}
         </MenuButton>
       )}
+      menuClassName="my-menu"
       transition
       arrow={'arrow'}
       position={'initial'}
       align={'end'}
       viewScroll={'auto'}
     >
-      <MenuItem>
-        <a className="link" href="t.me/prance0">
-          Telegram
-        </a>
-      </MenuItem>
-      <MenuItem>
-        <a className="link" href="https://github.com/AliShakiba1">
-          GitHub
-        </a>
-      </MenuItem>
+      <div>
+        <MenuItem>
+          <a className="link" href="t.me/prance0">
+            Telegram
+          </a>
+        </MenuItem>
+        <MenuItem>
+          <a className="link" href="https://github.com/AliShakiba1">
+            GitHub
+          </a>
+        </MenuItem>
+      </div>
     </Menu>
   )
 }
