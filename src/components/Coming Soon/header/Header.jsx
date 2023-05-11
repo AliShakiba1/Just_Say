@@ -1,10 +1,11 @@
 import React from 'react'
 import userlogo from '../../..//assets/user.svg'
-import './Header.css'
 
 import { Menu, MenuButton, MenuItem } from '@szhsin/react-menu'
+import '@szhsin/react-menu/dist/core.css'
 import '@szhsin/react-menu/dist/index.css'
 import '@szhsin/react-menu/dist/transitions/slide.css'
+import './Header.css'
 
 const Header = () => {
   return (
@@ -57,7 +58,3 @@ const Header = () => {
 }
 
 export default Header
-
-//  <div>
-
-//     </div>
