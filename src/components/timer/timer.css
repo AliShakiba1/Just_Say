@@ -4,7 +4,7 @@
 
 .counter {
   font-weight: bold;
-  font-size: 75px;
+  font-size: 65px;
   letter-spacing: 0.1em;
   font-family: 'Inter';
   display: flex;
@@ -14,7 +14,7 @@
 
 .timer {
   font-weight: bold;
-  font-size: 23px;
+  font-size: 19px;
   /* letter-spacing: 0.35em; */
   font-family: 'Inter';
 }
