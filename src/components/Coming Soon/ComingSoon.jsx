@@ -23,14 +23,14 @@ const ComingSoon = () => {
         <div className="COMINGSOON">COMING SOON</div>
         <Timer />
       </div>
-      <div
+      {/* <div
         className="footer"
         style={{
           fontFamily: 'Inter',
         }}
       >
         <a href="https://github.com/AliShakiba1">&#169; Ali Shakiba</a>
-      </div>
+      </div> */}
     </div>
   )
 }

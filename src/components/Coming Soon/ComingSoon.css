@@ -4,7 +4,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-areas:
+  /* grid-template-areas:
     ' . . .  header'
     '  main   main    main    main  '
     '  main   main    main    main  '
@@ -12,15 +12,18 @@ body {
   gap: 2px;
   padding: 2px;
   justify-content: center;
-  align-items: center;
-}
-
-.footer {
-  grid-area: footer;
+  align-items: center; */
+  grid-template-columns: repeat(12, 0.5fr);
+  grid-template-rows: 0.1fr 2fr;
 }
 
 .header {
-  grid-area: header;
+  /* grid-column-start: 11;
+  grid-column-end: 12; */
+  grid-column: 11/12;
+  grid-row: 1/2;
+  /* grid-row-start: 1;
+  grid-row-end: 2; */
 }
 
 .main {
@@ -29,12 +32,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  grid-column: 4/10;
+  grid-row: 1/-1;
 }
 
 .COMINGSOON {
   color: #0087e0;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 55px;
   letter-spacing: 0.3em;
   font-family: 'Inter';
   padding: 0px;
