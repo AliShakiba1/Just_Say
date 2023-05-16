@@ -16,8 +16,8 @@ const ComingSoon = () => {
           alt="JustSayLogo"
           className="JustSayLogo"
           style={{
-            width: '450px',
-            height: '480px',
+            width: '420px',
+            height: '430px',
           }}
         />
         <div className="COMINGSOON">COMING SOON</div>
